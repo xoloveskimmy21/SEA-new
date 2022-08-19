@@ -1,11 +1,11 @@
 # SCHOOL OF ENGINEERING
 ## itelective3-web
 
-### AteneodeDavaoUniversity- School of Engineering and Architechture (SEA)
+### AteneodeDavaoUniversity- School of Engineering and Architecture (SEA)
 
 #### ![294080708_542060584374747_5401035328925890890_n](https://user-images.githubusercontent.com/110330192/185542946-5a933cbb-ef16-4550-80e9-e21e58dc4bc4.jpg)
 
-##### This project aims to illustrate and determine the Stock Inventory System of Ateneo de Davao University - School of Engineering and Architechture
+##### This project aims to illustrate and determine the Stock Inventory System of Ateneo de Davao University - School of Engineering and Architecture
 
 ## Frameworks With Associated Logos
 
