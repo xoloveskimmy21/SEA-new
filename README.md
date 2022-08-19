@@ -1,4 +1,4 @@
-# SCHOOL OF ENGINEERING-new
+# SCHOOL OF ENGINEERING
 ## itelective3-web
 
 ### AteneodeDavaoUniversity- School of Engineering and Architechture (SEA)
