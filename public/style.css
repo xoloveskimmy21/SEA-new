@@ -1,0 +1,122 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+header, main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .container, main .container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0.5rem 1rem;
+}
+
+header {
+  flex: 0;
+  background: #0099ff;
+  color: #fff;
+}
+header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+header .brand img {
+  height: 2rem;
+  width: auto;
+  margin-right: 0.5rem;
+}
+header nav a {
+  color: white;
+  font-size: 1rem;
+}
+header nav a.active {
+  text-decoration: underline;
+  margin-right: 1rem;
+}
+
+main {
+  flex: 1;
+}
+main .container {
+  padding: 5rem 1rem 2rem 1rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.info img {
+  width: 50%;
+  max-width: 200px;
+  border-radius: 0.25rem;
+}
+.info > div {
+  padding: 0.5rem;
+}
+.info > div .name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #333;
+}
+.info > div .geo {
+  font-size: 1rem;
+  color: #777;
+}
+
+.forecasts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.forecasts .forcast {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem;
+}
+.forecasts .forcast img {
+  height: 3rem;
+  width: auto;
+}
+.forecasts .forcast h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  color: #333;
+}
+.forecasts .forcast span {
+  color: #777;
+  font-size: 1rem;
+}
